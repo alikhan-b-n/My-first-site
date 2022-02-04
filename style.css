@@ -1,0 +1,99 @@
+:root{
+    --color1:#ff1e00;
+    --color2:#3b1399;
+}
+body{
+    font-family:serif;
+    margin:0px;
+}
+header{
+    font-style: italic;
+    padding:100px;
+}
+
+.enter{
+    text-align: center;
+}
+
+section{
+    font-family:emoji;
+
+    background-color: #eee;
+}
+
+section i{
+    font-size:25px;
+    color:var(--color1);
+}
+
+.ability{
+    padding:50px;
+}
+
+.circle{
+    margin: 0 auto 15px;
+    width: 50px;
+    height: 47px;
+    border:3px solid var(--color1);
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.content{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.accordion{
+    padding:50px;
+}
+
+.title{
+    text-align: center;
+}
+
+footer{
+    border-top: black;
+    border:3px solid;
+    padding: 20px;
+}
+
+.links{
+    display:flex;
+}
+
+.links a{
+    color:black;
+    margin-left: 20px;
+}
+
+
+
+.line{
+    width:100px;
+    height: 3px;
+    background-color: var(--color2);
+    margin:10px auto 30px;
+}
+
+.accordion{ 
+    padding-top: 50px;
+    background-color: white;
+}
+.carousel{
+    padding:50px;
+}
+
+
+header, footer{
+background: var(--color1); 
+background: -moz-linear-gradient(left, var(--color1)  0%, var(--color2) 100%); 
+background: -webkit-linear-gradient(left, var(--color1) 0%,var(--color2) 100%);
+background: linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+}
+#reg:hover{
+    color:var(--color1);
+}
